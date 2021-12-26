@@ -39,7 +39,7 @@ function showNotes() {
   if (notesObj.length != 0) {
     notesElm.innerHTML = html;
   } else {
-    notesElm.innerHTML = `Nothing to show all are empty. Write your Notes and publish it with the world`;
+    notesElm.innerHTML = `Nothing to show. Write and add your lists to do today or in the future`;
   }
 }
 
